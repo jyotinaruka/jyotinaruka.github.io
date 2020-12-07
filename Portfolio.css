@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+    margin: 0;
+    background: linear-gradient(rgb(139, 132, 132),black);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  white-space: pre;
+}
+.bg {
+    background-color:#151516 !important;   
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+.p-1{
+  padding: 1em !important;
+}
+.px-1, .ui.circular.label.px-1 {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.m-0{
+  margin: 0 !important;
+}
+.m-1{
+  margin: 1em !important;
+}
+.mx-1 {
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+}
+.my-1 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+/* Generic UI */
+.ui.header, .ui.card .header {
+  font-family: 'Caveat', cursive !important;
+}
+h2.ui.header {
+  font-size: 3rem !important;
+}
+h3.ui.header, .ui.card .header {
+  font-size: 2.5rem !important;
+}
+.ui.card {
+  width: 100% !important;
+}
+main > section {
+  min-height: calc(100vh - 81px);
+}
+/* Navbar */
+
+.navbar {
+  position: fixed !important;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 100;
+  border-bottom: 1px solid rgba(119, 136, 153, 1) !important;
+}
+
+.m-nav {
+  padding-top: 1em !important;
+  /* margin-top: 2rem; */
+  padding-bottom: 3rem !important;
+  margin-top: 0 !important;
+}
+
+.logo {
+    padding: 1rem !important;
+    margin: 5px !important;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+.logo img{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 80px !important;
+    width: 80px !important;
+}
+.logo:hover{
+    background-color: transparent !important;
+}
+/* Intro.js*/
+
+.intro .intro-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 10rem;
+  font-family: 'Great Vibes', cursive;
+}
+.intro .intro-content{
+    text-align: center;
+    color: #fff;
+}
+
+.intro-content .container{
+    margin: 12rem 0;
+}
+
+.intro .intro-subtitle {
+  font-size: 2.5rem;
+}
+
+.intro .text-slider-items {
+  display: none;
+}
+
+.intro .text-slider{
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.intro-single {
+  height: 350px;
+}
+
+
+.intro-single .intro-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+
+.intro-single .breadcrumb .breadcrumb-item:before {
+  color: #bbf5df;
+}
+
+.intro-single .breadcrumb .breadcrumb-item.active {
+  color: #bbf5df;
+}
+
+.intro-single .breadcrumb a {
+  color: #fff;
+}
+
+/* ###################### about.js ############################*/
+
+
+.about-bg{
+  background-attachment: fixed;
+  background: repeating-linear-gradient(45deg, rgba(119, 136, 153, 0.05), rgba(119, 136, 153, 0.05) 5px, transparent 5px, transparent 10px);
+}
+
+.about-align{
+  margin-top: 50px 0 !important;
+  
+}
+
+.about-me{
+  font-family: sans-serif !important;
+  font-size: large !important;
+  
+}
+
+.about-bg .ui.circular.label, .projects-bg .ui.circular.label {
+  background-color: transparent;
+  border: 1px solid #151516;
+}
+.about-bg .ui.circular.label:hover, .projects-bg .ui.circular.label:hover {
+  border: 1px solid DodgerBlue;
+  color: DodgerBlue;
+}
+
+.about-bg .card-header{
+  font-family: 'Caveat', cursive !important;
+  font-size: 2rem !important;
+}
+
+.about-bg .card-highlight{
+  font-weight: 900 !important;
+  color: olivedrab !important;
+  text-align: center !important;
+}
+
+/* ########### projects page ##################*/
+.projects-bg{
+  font-size: 20px;
+  background-attachment: fixed;
+  background:linear-gradient(LightSlateGray, white);
+}
+
+.projects-bg .ui.label > .icon {
+  margin-right: 0.75rem !important;
+}
+
+/* ########### contact page ##################*/
+#contact {
+  font-size: 2rem !important;
+}
+
+#contact.m-nav{
+  /* margin-top: 0 !important;    */
+}
+
+#contact h2{
+  font-size: 5rem !important;
+  margin-bottom:0px;
+  padding: 3rem;
+  padding-bottom: 1rem;
+  color:white;
+}
+
+.contact-bg{
+  background: url("/earth.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.reach{
+  text-align: center;
+  padding:50px;
+}
+
+#profile-link {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 0rem;
+}
+#profile-link a {
+  transition: 0.3s ease;
+  text-decoration:none;
+  color:white;
+  padding:20px;
+  font-size: 1.8rem;
+}
+#profile-link a:hover {
+  color:white;
+  font-size: 2.5rem;
+}
